@@ -1,0 +1,21 @@
+ // 1. function HeaderComponent(props){
+
+// 프롭스를 중괄호를 사용 직접 비구조화
+// 2. function HeaderComponent({homePath, logoTitle, imgSrc, imgAlt}){
+
+// 3. 프롭스로 내려받아서 비구조화 등록
+
+
+// 상태관리 변수 addClass를 마우스가 클릭하면 true 상태변경
+const onClickAddClass=(e)=>{
+  e.preventDefault();
+  alert('클릭!');
+  setAddClass(true); // 상태변경
+}
+
+// // 상태관리 변수 addClass를 마우스가 클릭하면 false 상태변경
+const onClickAddClass2=()=>{
+  e.preventDefault();
+  alert('클릭!');
+  setAddClass(false); // 상태변경
+}
